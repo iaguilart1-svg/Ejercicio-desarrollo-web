@@ -1,0 +1,35 @@
+EJERCICIO DE RAMAS EN GITHUB
+
+RAMA BUGFIX/SOLUCION
+
+1. CREACIÓN DE LA RAMA
+
+Primero se creó la rama bugfix/solucion desde la rama master utilizando:
+
+git checkout -b bugfix/solucion
+
+Después se utilizó git branch para comprobar que la rama se creó correctamente.
+
+2. CREACIÓN DEL ARCHIVO
+
+Dentro de la carpeta RamasGitBash se creó el archivo DocumentacionSolucion.txt utilizando:
+
+touch DocumentacionSolucion.txt
+
+3. PUBLICACIÓN DEL ARCHIVO
+
+Primero se agregó el archivo:
+
+git add DocumentacionSolucion.txt
+
+Después se realizó el commit:
+
+git commit -m "Agrega documentación en rama bugfix"
+
+Por último, se subió la rama a GitHub utilizando:
+
+git push -u origin bugfix/solucion
+
+4. SINCRONIZACIÓN
+
+Al finalizar, se comprobó que la rama bugfix/solucion quedó creada tanto localmente como en GitHub y que los cambios se sincronizaron correctamente.
