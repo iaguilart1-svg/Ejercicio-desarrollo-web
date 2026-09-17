@@ -10,7 +10,7 @@ RAMA FEATURE/README
 
 
 
-La rama fue creada desde la rama master utilizando el comando:
+Primero se creó la rama feature/README desde la rama master con el siguiente comando:
 
 
 
@@ -18,11 +18,7 @@ git checkout -b feature/README
 
 
 
-Después se verificó que la rama fue creada correctamente utilizando:
-
-
-
-git branch
+Después se utilizó git branch para comprobar que la rama se creó correctamente.
 
 
 
@@ -42,7 +38,7 @@ touch README.md
 
 
 
-El archivo se agregó al área de preparación utilizando:
+Primero se agregó el archivo para poder hacer el commit:
 
 
 
@@ -50,7 +46,7 @@ git add README.md
 
 
 
-Luego se realizó el commit con el comando:
+Después se realizó el commit:
 
 
 
@@ -58,7 +54,7 @@ git commit -m "Agrega README en rama feature"
 
 
 
-Finalmente, la rama fue publicada en GitHub utilizando:
+Por último, se subió la rama a GitHub con:
 
 
 
@@ -70,5 +66,5 @@ git push -u origin feature/README
 
 
 
-Se verificó que la rama local feature/README quedó sincronizada con la rama remota de GitHub.
+Al finalizar, se comprobó que la rama feature/README quedó creada tanto localmente como en GitHub y que los cambios se sincronizaron correctamente.
 
